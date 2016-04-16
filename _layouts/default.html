@@ -55,39 +55,39 @@
       <nav>
         <a class="{% if page.category == 'about-zh' %} selected {% endif %}" href="/cn/">关于</a>
 		<a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">博客</a>
-        <a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/cn/project">项目</a>
+		<a href="/timeline/">时间线</a>
+        <a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/cn/project">生活</a>
         <!--<a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>-->
+		<a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/cn/project">政策</a>
         <a href="/resume/">简历</a>
 	    <!--<a href="/minqimao_resume_cn.pdf">简历</a>
         <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">出版</a>-->
-        <a href="/books/">书单</a>
-		<a href="/timeline/">时间线</a>
         <a href="https://github.com/minqimao">Github</a>
       </nav>
       {% elsif page.url == '/cn/project' %}
       <nav>
         <a class="{% if page.category == 'about-zh' %} selected {% endif %}" href="/cn/">关于</a>
 		<a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">博客</a>
-        <a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/cn/project">项目</a>
+		<a href="/timeline/">时间线</a>
+        <a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/cn/project">生活</a>
         <!--<a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>-->
+		<a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/cn/project">政策</a>
         <!--<a href="/minqimao_resume_cn.pdf">简历</a>-->
 	    <a href="/resume/">简历</a>
         <!--<a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">出版</a>-->
-	    <a href="/books/">书单</a>
-		<a href="/timeline/">时间线</a>
         <a href="https://github.com/minqimao">Github</a>
       </nav>
       {% else %}
       <nav>
         <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
 		<a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
-        <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Project</a>
+		<a href="/timeline/">Times</a>
+        <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Life</a>
+        <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Policy</a>
         <!--<a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>-->
 	    <!--<a href="/minqimao_resume_cn.pdf">Resume</a>-->
 	    <a href="/resume/">Resume</a>
         <!--<a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">Publication</a>-->
-	    <a href="/books/">Book</a>
-		<a href="/timeline/">Times</a>
         <a href="https://github.com/minqimao">Github</a>
       </nav>
 	  {% endif %}
