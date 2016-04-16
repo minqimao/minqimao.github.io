@@ -2,9 +2,9 @@
 layout: post
 title:  Happy New Year
 date:   2016-01-01
-categories: jekyll technology
+categories: Daily
 permalink: welcome-to-jekyll
-tags: blog github wordpress
+tags: blog
 
 # author
 author: Minqi Mao
