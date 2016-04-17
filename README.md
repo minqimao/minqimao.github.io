@@ -4,7 +4,7 @@
 
 本博客主页主题根据[willard-yuan](http://yongyuan.name/blog/)的主题改编. willard-yuan的主题则是[Sébastien Saunier](https://raw.github.com/ssaunier/ssaunier.github.io/)在[marcgg](http://marcgg.com/)的基础上改写的.
 
-本人fork后, 做了一定的修改, 欢迎fork！. 本人Github[博客主页](http://minqimao.github.io)Demo.
+本人fork后, 做了一定的修改, 欢迎fork！本人Github[博客主页](http://minqimao.github.io)Demo.
 
 ### 注意(Warning)
 
