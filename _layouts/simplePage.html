@@ -35,11 +35,12 @@
       {% if page.url == '/cn/index.html' %}
       <nav>
         <a class="{% if page.category == 'about' %} selected {% endif %}" href="/cn/">关于</a>
-        <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">项目</a>
+		<a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">博客</a>
+		<a href="/Events/">大事记</a>
+        <a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/cn/project">生活</a>
         <!--<a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>-->
         <a href="/resume/">简历</a>
         <!--<a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">出版</a>-->
-        <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">博客</a>
 		<a href="/books/">书单</a>
         <!--<a class="{% if page.category == 'contact' %} selected {% endif %} contact" href="/contact/">Contact</a>
 		<a href="https://jinshuju.net/f/b3L2Be">雇佣</a>-->
@@ -48,13 +49,14 @@
       {% else %}
       <nav>
         <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
-        <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Project</a>
+		<a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
+		<a href="/Events/">Events</a>
+        <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Life</a>
+        <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Policy</a>
         <!--<a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>-->
-		<a href="/resume/">Resume</a>
+	    <!--<a href="/minqimao_resume_cn.pdf">Resume</a>-->
+	    <a href="/resume/">Resume</a>
         <!--<a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">Publication</a>-->
-        <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
-		<a href="/books/">Book</a>
-        <!--<a class="{% if page.category == 'contact' %} selected {% endif %} contact" href="/contact/">Contact</a>-->
         <a href="https://github.com/minqimao">Github</a>
       </nav>
       {% endif %}
@@ -63,16 +65,16 @@
         <div class="name">
           <a href="/">Minqi Mao</a><br />
           <small>
-            <em>
+           <!--  <em> -->
               {% if page.url == '/cn/index.html' %}
-                <a href="/cn">开发者</a>
+                <a href="/cn">博客</a>
               {% else %}
-                <a href="/">developer</a>
+                <a href="/">Blogger</a>
               {% endif %}
-            </em>
+            <!-- </em> -->
           </small>
         </div>
-        <img class="avatar" src="/images/MinqiMao.png" alt="My profile picture" />
+        <a href="http://minqimao.github.io"><img class="avatar" src="/images/MinqiMao.png" alt="My profile picture" /></a>
       </div>
       <div class="clear"></div>
     </header>
