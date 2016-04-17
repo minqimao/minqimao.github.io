@@ -2,9 +2,9 @@
 layout: post
 title:  Hello World!
 date:   2016-04-15
-categories: jekyll technology
+categories: jekyll
 permalink: welcome-to-jekyll
-tags: blog github wordpress
+tags: github
 
 # author
 author: Minqi Mao
