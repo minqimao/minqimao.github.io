@@ -42,7 +42,7 @@ $(function () {
   </h1>
   <ul class="meta">
   	<i class="fa fa-calendar"></i>
-  	{{ page.date | date: "%Y" }}年{{ page.date | date: "%m" }}月{{ page.date | date: "%d" }}日
+  	{{ page.date | date: "%Y" }}Year{{ page.date | date: "%m" }}Month{{ page.date | date: "%d" }}Day
   	<i class="space"></i>
   	<i class="fa fa-archive"></i>
   	<a class="tag" href="{{ site.url }}/blog/categories.html#{{ page.categories }}">{{ page.categories }}</a> 
@@ -52,7 +52,7 @@ $(function () {
   	    <a class="tag" href="{{ site.url }}/tag/#{{ tag }}">{{ tag }}</a>
   	    <i class="space"></i>
   	{% endfor %}
-  	<i class="space"></i> 字数:{{page.content | size |divided_by:2}}
+  	<i class="space"></i> Words:{{page.content | size |divided_by:2}}
   </ul>
 </div>
 </div>
