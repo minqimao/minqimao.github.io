@@ -1,16 +1,17 @@
 ---
 layout: default
-title: Blog
+title: Minqi Mao - Blog
 category: blog
 ---
+<!-- Explain: for MenuBar/blog/timeline -->
 
-<link rel="stylesheet" href="../css/blog.css">
+<link rel="stylesheet" href="css/style.css">
 <div class="subheader-container">
 <div class = "inner">
 <nav class = "sub-nav">
-    <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">时间线</a>
-    <a class="{% if page.category == 'categories' %} selected {% endif %}" href="/blog/categories.html">归档</a>
-    <a class="{% if page.category == 'project' %} selected {% endif %}" href="/cn/project">维基</a>
+    <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Time line</a>
+    <a class="{% if page.category == 'categories' %} selected {% endif %}" href="/blog/categories.html">Category</a>
+    <a class="{% if page.category == 'Wiki' %} selected {% endif %}" href="/cn/Wiki">Wiki</a>
 </nav>
 </div>
 </div>
@@ -22,11 +23,8 @@ category: blog
 		{% assign year = y %}
 		<span class="listing-seperator">{{ y }}</span>
 	  {% endif %}
-    <a class='post-link-in-posts' href="{{ site.url }}{{ post.url }}">
-        <span class='date'>{{ post.date | date_to_string }}</span>
-        <span class='article'>{{ post.title }}</span>
-        <strong class='tag fa fa-tags'>{{ post.tags | first }}</strong>
-    </a>
+    <!--<style>#uniqueid:hover{background-color: #D3D3D3; text-decoration: none;}</style>-->
+    <a  id = "uniqueid" class="listing-item" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time></a>
     {% endfor %}
   </ul>
 </section>
