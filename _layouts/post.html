@@ -42,7 +42,7 @@ $(function () {
   </h1>
   <ul class="meta">
   	<i class="fa fa-calendar"></i>
-  	{{ page.date | date: "%Y" }}Y {{ page.date | date: "%m" }}M {{ page.date | date: "%d" }}D 
+  	{{ page.date | date: "%m" }}. {{ page.date | date: "%d" }}, {{ page.date | date: "%Y" }}
   	<i class="space"></i>
   	<i class="fa fa-archive"></i>
   	<a class="tag" href="{{ site.url }}/blog/categories.html#{{ page.categories }}">{{ page.categories }}</a> 
