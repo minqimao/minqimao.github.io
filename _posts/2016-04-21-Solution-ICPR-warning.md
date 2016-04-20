@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Solution: ICPR warning, pages has wrong paper size
+title:  Solution: ICPR warning
 date:   2016-04-21
 categories: Solution
 permalink: Solution-ICPR-warning
