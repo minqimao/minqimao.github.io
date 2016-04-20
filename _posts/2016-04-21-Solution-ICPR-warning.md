@@ -13,13 +13,13 @@ author: Minqi Mao
 ## ICPR上传文档时显示
 
 There are compliance problems that prevent the file from being accepted for submission
---Page 1 has the wrong paper size (US Letter instead of the required A4)
---Page 2 has the wrong paper size (US Letter instead of the required A4)
-...
---Page 1 has margin impositions
---Page 2 has margin impositions
-...
-![drawing]()
+Page 1 has the wrong paper size (US Letter instead of the required A4)
+Page 2 has the wrong paper size (US Letter instead of the required A4)
+
+Page 1 has margin impositions
+Page 2 has margin impositions
+
+
 模板(Template) IEEE Trans.
 
 ## 解决方案(Solution)
