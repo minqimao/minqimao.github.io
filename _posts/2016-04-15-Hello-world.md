@@ -4,7 +4,7 @@ title:  Hello World!
 date:   2016-04-15
 categories: Life
 permalink: Hello-world
-tags: github
+tags: Life
 
 # author
 author: Minqi Mao

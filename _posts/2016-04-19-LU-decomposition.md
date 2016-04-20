@@ -4,7 +4,7 @@ title:  LU Decomposition
 date:   2016-04-19
 categories: Basis
 permalink: LU-decomposition
-tags: github
+tags: Basis
 
 # author
 author: Minqi Mao
