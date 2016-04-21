@@ -54,6 +54,16 @@ end
 P=zeros(s,s);
 P(PV(:)*s+(1:s)')=1;
 ```
+
+```python
+nihao
+
+bnihao
+
+```
+
+
+
 ## Inverse of matrix
 
 For a given linear system $Ax=b$,
