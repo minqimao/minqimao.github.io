@@ -14,8 +14,22 @@ author: Minqi Mao
 
 Function (MATLAB)
 
-```python
+```matlab
 function [L,U,P] = Lu(A)
+%  LU factorization.
+% [http://www.mathworks.com/...](http://www.mathworks.com/matlabcentral/fileexchange/37459-matrix-inverse-using-lu-factorization/content/Lu.m)
+%   
+% [L,U,P] = Lu(A) returns unit lower triangular matrix L, upper
+% triangular matrix U, and permutation matrix P so that P*A = L*U.
+%
+% example,
+%   A=rand(9,9);
+%
+%   [L,U,P] = Lu(A);
+%   sum(sum(abs(P*A- L*U)))
+%   
+%   [L,U,P] = lu(A);
+%   sum(sum(abs(P*A- L*U)))
 
 s=length(A);
 U=A;
