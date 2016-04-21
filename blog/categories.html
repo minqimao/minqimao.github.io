@@ -4,13 +4,15 @@ title: Categories - Blog
 category: categories
 ---
 
-<link rel="stylesheet" href="css/style.css">
+<!-- Explain: for MenuBar/blog/categories -->
+
+<link rel="stylesheet" href="../css/blog.css">
 <div class="subheader-container">
 <div class = "inner">
 <nav class = "sub-nav">
-    <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Time line</a>
-    <a class="{% if page.category == 'categories' %} selected {% endif %}" href="/blog/categories.html">Category</a>
-    <a class="{% if page.category == 'Wiki' %} selected {% endif %}" href="/cn/Wiki">Wiki</a>
+    <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Timeline</a>
+    <a class="{% if page.category == 'categories' %} selected {% endif %}" href="/blog/categories.html">categories</a>
+    <a class="{% if page.category == 'project' %} selected {% endif %}" href="/cn/project">Wiki</a>
 </nav>
 </div>
 </div>
