@@ -60,26 +60,26 @@ P(PV(:)*s+(1:s)')=1;
 
 For a given linear system 
 
-$Ax=b,
+Ax=b,
 
-We can find $x by
+We can find x by
 
-$x= A^(-1)b
+x= A^(-1)b
 
 However, when the matrix is large, we can compute the LU decomposition to get the inverse of $A
 
 That is,
 
-$[L, U]= lu(A);
+[L, U]= lu(A);
 
 Then,
 
-$x= inv(U)*inv(L)*b;
+x= inv(U)*inv(L)*b;
 
 For matrix, if, instead of b you insert the identity matrix I,
 to get the inverse:
 
-$inv(A) = inv((U)*inv(L)*I
+inv(A) = inv((U)*inv(L)*I
 
 
 ## Reference
