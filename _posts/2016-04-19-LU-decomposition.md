@@ -81,6 +81,18 @@ to get the inverse:
 
 inv(A) = inv((U)*inv(L)*I
 
+$$
+\begin{equation}
+   P(X = x_i) = p_i, i = 1, 2, ...,n
+\end{equation}
+$$
+
+
+```python
+marineEnt = -0.4*np.log2(0.4)-0.6*np.log2(0.6)
+print "the entropy of the marine organism: %.20f" % marineEnt
+# the entropy of the marine organism: 0.97095059445466858072
+```
 
 ## Reference
 
