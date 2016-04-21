@@ -55,50 +55,31 @@ P=zeros(s,s);
 P(PV(:)*s+(1:s)')=1;
 ```
 
-```python
-nihao
-
-bnihao
-
-```
-
-
 
 ## Inverse of matrix
 
-For a given linear system $Ax=b$,
+For a given linear system 
 
-We can find $x$ by
+$Ax=b,
 
-$$
-\begin{aligned}
-x= A^(-1)b
-\end{aligned}
-$$
+We can find $x by
 
-However, when the matrix is large, we can compute the LU decomposition to get the inverse of $A$
+$x= A^(-1)b
+
+However, when the matrix is large, we can compute the LU decomposition to get the inverse of $A
 
 That is,
-$$
-\begin{aligned}
-[L, U]= lu(A);
-\end{aligned}
-$$
+
+$[L, U]= lu(A);
 
 Then,
-$$
-\begin{aligned}
-x= inv(U)*inv(L)*b;
-\end{aligned}
-$$
+
+$x= inv(U)*inv(L)*b;
 
 For matrix, if, instead of b you insert the identity matrix I,
 to get the inverse:
-$$
-\begin{aligned}
-inv(A) = inv((U)*inv(L)*I
-\end{aligned}
-$$
+
+$inv(A) = inv((U)*inv(L)*I
 
 
 ## Reference
