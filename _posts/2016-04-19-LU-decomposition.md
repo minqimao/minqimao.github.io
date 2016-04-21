@@ -10,6 +10,31 @@ tags: Basis, Share
 author: Minqi Mao
 ---
 
+## Inverse of matrix
+
+For a given linear system 
+
+Ax=b,
+
+We can find x by
+
+x= A^(-1)b
+
+However, when the matrix is large, we can compute the LU decomposition to get the inverse of $A
+
+That is,
+
+[L, U]= lu(A);
+
+Then,
+
+x= inv(U)*inv(L)*b;
+
+For matrix, if, instead of b you insert the identity matrix I,
+to get the inverse:
+
+inv(A) = inv((U)*inv(L)*I
+
 ## LU Decomposition
 
 Function (MATLAB)
@@ -52,45 +77,6 @@ for j=1:s,
 end
 P=zeros(s,s);
 P(PV(:)*s+(1:s)')=1;
-```
-
-
-## Inverse of matrix
-
-For a given linear system 
-
-Ax=b,
-
-We can find x by
-
-x= A^(-1)b
-
-However, when the matrix is large, we can compute the LU decomposition to get the inverse of $A
-
-That is,
-
-[L, U]= lu(A);
-
-Then,
-
-x= inv(U)*inv(L)*b;
-
-For matrix, if, instead of b you insert the identity matrix I,
-to get the inverse:
-
-inv(A) = inv((U)*inv(L)*I
-
-$$
-\begin{equation}
-   P(X = x_i) = p_i, i = 1, 2, ...,n
-\end{equation}
-$$
-
-
-```python
-marineEnt = -0.4*np.log2(0.4)-0.6*np.log2(0.6)
-print "the entropy of the marine organism: %.20f" % marineEnt
-# the entropy of the marine organism: 0.97095059445466858072
 ```
 
 ## Reference
