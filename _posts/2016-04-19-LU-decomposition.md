@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  LU factorization, Inverse of matrix
+title:  LU factorization, Inverse of large matrix
 date:   2016-04-19
 categories: Basis, Share
 permalink: LU-decomposition
