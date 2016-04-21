@@ -17,7 +17,6 @@ Function (MATLAB)
 ```matlab
 function [L,U,P] = Lu(A)
 %  LU factorization.
-% [http://www.mathworks.com/...](http://www.mathworks.com/matlabcentral/fileexchange/37459-matrix-inverse-using-lu-factorization/content/Lu.m)
 %   
 % [L,U,P] = Lu(A) returns unit lower triangular matrix L, upper
 % triangular matrix U, and permutation matrix P so that P*A = L*U.
@@ -96,4 +95,6 @@ print "the entropy of the marine organism: %.20f" % marineEnt
 
 ## Reference
 
-Mathworks, [http://cn.mathworks.com/...](http://cn.mathworks.com/matlabcentral/newsreader/view_thread/19700)
+Mathworks, [mathworks.com/...](http://cn.mathworks.com/matlabcentral/newsreader/view_thread/19700)
+
+Function, [mathworks.com/...](http://www.mathworks.com/matlabcentral/fileexchange/37459-matrix-inverse-using-lu-factorization/content/Lu.m)

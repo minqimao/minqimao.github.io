@@ -4,13 +4,15 @@ title: Categories - Blog
 category: categories
 ---
 
-<link rel="stylesheet" href="../css/blog.css">
+<!-- Explain: for MenuBar/blog/categories -->
+
+<link rel="stylesheet" href="css/style.css">
 <div class="subheader-container">
 <div class = "inner">
 <nav class = "sub-nav">
-    <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">时间线</a>
-    <a class="{% if page.category == 'categories' %} selected {% endif %}" href="/blog/categories.html">归档</a>
-    <a class="{% if page.category == 'project' %} selected {% endif %}" href="/cn/project">维基</a>
+    <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Time line</a>
+    <a class="{% if page.category == 'categories' %} selected {% endif %}" href="/blog/categories.html">Category</a>
+    <a class="{% if page.category == 'Wiki' %} selected {% endif %}" href="/cn/Wiki">Wiki</a>
 </nav>
 </div>
 </div>
@@ -23,12 +25,10 @@ category: categories
 
 <section class="inner">
 {% for cat in site.categories %}
-  <li class="category-listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}（共{{ cat[1].size }}篇）</li>
-    {% for post in cat[1] %}
-    <div class = "post-link-in-posts">
-    <a id = "uniqueid"  class="listing-item" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time></a>
-    </div>
-    {% endfor %}
+  <li class="category-listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}（About{{ cat[1].size }}）</li>
+{% for post in cat[1] %}
+<li class="listing-item" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time></li>
+{% endfor %}
 {% endfor %}
 </section>
 
