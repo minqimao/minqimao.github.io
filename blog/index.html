@@ -3,7 +3,7 @@ layout: default
 title: Minqi Mao - Blog
 category: blog
 ---
-<!-- Explain: for MenuBar/blog/timeline -->
+<!-- Explain: for MenuBar/blog/categories -->
 
 <link rel="stylesheet" href="css/style.css">
 <div class="subheader-container">
@@ -23,8 +23,11 @@ category: blog
 		{% assign year = y %}
 		<span class="listing-seperator">{{ y }}</span>
 	  {% endif %}
-    <!--<style>#uniqueid:hover{background-color: #D3D3D3; text-decoration: none;}</style>-->
-    <a  id = "uniqueid" class="listing-item" href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}<time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time></a>
+    <a class='post-link-in-posts' href="{{ site.url }}{{ post.url }}">
+        <span class='date'>{{ post.date | date_to_string }}</span>
+        <span class='article'>{{ post.title }}</span>
+        <strong class='tag fa fa-tags'>{{ post.tags | first }}</strong>
+    </a>
     {% endfor %}
   </ul>
 </section>
