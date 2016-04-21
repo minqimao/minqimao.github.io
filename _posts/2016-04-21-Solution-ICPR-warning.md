@@ -32,15 +32,16 @@ There are compliance problems that prevent the file from being accepted for subm
 
 ## 解决方案(Solution)
 
--
 IEEE 模板的documentclass后面加上a4paper, 如下图
 
 原始：
+
 ![drawing](https://raw.githubusercontent.com/minqimao/minqimao.github.io/master/images/postsimage/2016/20160421072734.jpg)
 
 修改后：
+
 ![drawing](https://raw.githubusercontent.com/minqimao/minqimao.github.io/master/images/postsimage/2016/20160421072751.jpg)
 
--
 最后提交paper显示
+
 ![drawing](https://raw.githubusercontent.com/minqimao/minqimao.github.io/master/images/postsimage/2016/20160420201036.jpg)
