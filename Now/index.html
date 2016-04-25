@@ -1,39 +1,44 @@
 ---
-layout: default
-title: Home
+layout: Now
+title: Minqi Mao - Now
+description: Minqi Mao's Now. Some of them are my academy research, some are just my interest.
+category: Now
 ---
+<!-- Explain: MenuBar/Now -->
 
-<div class="home">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-  <ul class="posts">
-    {% for post in paginator.posts %}
-    <li>
-      <h1 >{{ post.title }}</h1>
-      <span>{{ post.date | date: "%b %-d, %Y" }}</span>
-      {{ post.excerpt }}
-      <div class="continue">
-        <a href="{{ post.url | prepend: site.baseurl }}">&bull;&bull;&bull;</a>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/pygments.css" | prepend: site.baseurl }}">
+</head>
 
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      {% if page == 2 %}
-        <a class="page-link" href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">prv</a>
-      {% else %}
-        <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">prv</a>
-      {% endif %}
-    {% else %}
-      <span class="page-link">prv</span>
-    {% endif %}
 
-    {% if paginator.next_page %}
-      <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">nxt</a>
-    {% else %}
-      <span class="page-link">nxt</span>
-    {% endif %}
-  </div>
+<p class="fancy">
+  Here are my Now. Some of them are my academy research, and some are just my interest. Coming soon !
+</p>
 
-</div>
+
+<div align="center"><img src="https://raw.githubusercontent.com/minqimao/minqimao.github.io/master/images/postsimage/2016/20160420201036.jpg"/></div>
+
+<!-- <section>
+    <a href="https://github.com/willard-yuan/pkbigdata-image-search">
+      <img src="https://raw.githubusercontent.com/minqimao/minqimao.github.io/master/images/postsimage/2016/20160420201036.jpg">
+    </a>
+    <h2>PupilTracker</h2>
+    <h3>Video: <a href="http://v.youku.com/v_show/id_XMTQ5MTQyMjQxMg==.html?from=y1.7-1.2">PupilTracker on Youku</a></h3>
+    <p><strong>My role:</strong> Main developer</p>
+    <p>
+	The information of pupilTracker will be coming soon.
+    </p>
+    <p>
+      <strong>Technologies:</strong> Image Precessing, OpenCV, C++
+    </p>
+</section>
+ -->
