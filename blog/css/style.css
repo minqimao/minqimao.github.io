@@ -343,10 +343,10 @@ img[alt=drawing] { width: 60%; }
   }
 }
 
-/*添加多说样式*/
+/**添加多说样式
 .duoshuo{
   margin-top:5em;;
-}
+}**/
 
 /**文章代码格式**/
 .post pre {
@@ -361,6 +361,7 @@ img[alt=drawing] { width: 60%; }
     word-break: break-all;
     word-wrap: break-word;
     background-color: #F5F5F5;
+	white-space: pre-wrap; /*防止一行太长*/
 }
 .post pre{
     font-size:.8rem;  /*设置代码字体大小*/

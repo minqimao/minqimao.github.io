@@ -3,7 +3,7 @@ layout: post
 title:  New Solution
 date:   2016-05-01
 categories: Solution
-permalink: Solution-ICPR-warning
+permalink: New-Solution
 tags: Solution
 
 # author
