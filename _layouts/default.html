@@ -153,21 +153,6 @@ the frame work of homepage of https://minqimao.github.io/ -->
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/sebastiensaunier" title="Connect with me on LinkedIn">
-          <i class="icon-linkedin"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://plus.google.com/+SebastienSaunier?rel=author" title="I need this link for authorship reasons">
-          <i class="icon-google-plus"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://pinboard.in/u:ssaunier" title="Browse my bookmarks about Programming">
-          <i class="icon-bookmarks"></i>
-        </a>
-      </li>
-      <li>
         <a href="/feed.xml" title="Subscribe to my blog with RSS">
           <i class="icon-feed"></i>
         </a>
@@ -241,6 +226,26 @@ $('#return-to-top').click(function() {      // When arrow is clicked
         });
     });
 </script> -->
+
+<!-- 多说评论框 start -->
+	<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="your web site/{{ page.url }}"></div>
+<!-- 多说评论框 end -->
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"minqimao"};
+	(function() {
+		var ds = document.createElement('script');
+		ds.type = 'text/javascript';ds.async = true;
+		ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		ds.charset = 'UTF-8';
+		(document.getElementsByTagName('head')[0] 
+		 || document.getElementsByTagName('body')[0]).appendChild(ds);
+	})();
+	</script>
+<!-- 多说公共JS代码 end -->
+
+
+
 
 </body>
 </html>
