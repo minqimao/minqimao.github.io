@@ -2,7 +2,7 @@
 layout: post
 title:  Supervised Discrete Hashing
 date:   2016-05-01
-categories: Solution
+categories: Hashing
 permalink: Supervised-Discrete-Hashing
 tags: Hashing
 
@@ -12,7 +12,7 @@ author: Minqi Mao
 
 ## Introduction and algorithm
 
-The code for the proposed SDH has been released at "url= https://github.com/bd622/DiscretHashing".
+The code for the proposed SDH has been released at github(https://github.com/bd622/DiscretHashing).
 
 
 ![drawing](https://raw.githubusercontent.com/minqimao/minqimao.github.io/master/images/postsimage/2016/20160420201118.jpg)
