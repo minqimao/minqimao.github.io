@@ -18,9 +18,11 @@ There are compliance problems that prevent the file from being accepted for subm
 
 --Page 2 has the wrong paper size (US Letter instead of the required A4)
 
+$
 \|X- DC \|_F^2 + Mao
 s.t.
 ...
+$
 
 ![drawing](https://raw.githubusercontent.com/minqimao/minqimao.github.io/master/images/postsimage/2016/20160420201118.jpg)
 
