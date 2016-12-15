@@ -10,13 +10,14 @@ tags: PostgreSQL,SQL,Shell
 author: Minqi Mao
 ---
 
+----
 ## configuration
 * system windows 10
 * postgresql 9.6.1
 * postgis 2.3.1
 
----
-postgresql 初步.安装完成后,SQL shell 使用问题  
+## postgresql 初步
+安装完成后,SQL shell 使用问题  
 首先打开SQL Shell 如下图
 
 ![drawing](minqimao.github.io/images/postsimage/2016/20161215203129.png)
