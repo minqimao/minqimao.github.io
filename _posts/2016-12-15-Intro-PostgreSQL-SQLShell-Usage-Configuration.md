@@ -10,7 +10,8 @@ tags: PostgreSQL,SQL,Shell
 author: Minqi Mao
 ---
 
----
+---  
+
 ## configuration
 * system windows 10
 * postgresql 9.6.1
