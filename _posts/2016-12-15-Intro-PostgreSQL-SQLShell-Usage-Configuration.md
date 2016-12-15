@@ -1,16 +1,17 @@
 ---
 layout: post
-title:  Intro, PostgreSQL SQLShell Usage Configuration
+title:  intro, postgresql sql shell usage configuration
 date:   2016-12-15
-categories: PostgreSQL,SQL,Shell
-permalink: Intro-PostgreSQL-SQLShell-Usage-Configuration
-tags: PostgreSQL,SQL,Shell
+categories: postgresql,sql,shell
+permalink: Intro-Postgresql-sqlshell-usage-configuration
+tags: postgresql,sql,shell
 
 # author
-author: Minqi Mao
+author: minqi mao
 ---
 
----  
+---
+##
 
 ## configuration
 * system windows 10
@@ -18,7 +19,7 @@ author: Minqi Mao
 * postgis 2.3.1
 
 ## postgresql 初步
-安装完成后,SQL shell 使用问题  
+安装完成后,sql shell 使用问题  
 首先打开SQL Shell 如下图
 
 ![drawing](minqimao.github.io/images/postsimage/2016/20161215203129.png)
@@ -39,3 +40,5 @@ author: Minqi Mao
 
 ## version
 2016/12/15  --version 1  
+
+---
